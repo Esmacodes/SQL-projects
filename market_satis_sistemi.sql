@@ -1,8 +1,4 @@
--- ============================================================
---   MARKET SATIŞ SİSTEMİ – SQL Projesi
---   Yönetim Bilişim Sistemleri 
---   Hazırlayan: Esma Kalyoncu
--- ============================================================
+
 
 -- ============================================================
 -- 1. VERİTABANI OLUŞTURMA
@@ -100,14 +96,14 @@ INSERT INTO urunler (urun_adi, kategori_id, birim_fiyat, stok_miktari) VALUES
 ('Pil AA 4lü',         5,  45.00,   50);
 
 INSERT INTO musteriler (ad, soyad, telefon, email, kayit_tarihi) VALUES
-('Ahmet',   'Yılmaz',  '05301234567', 'ahmet@email.com',   '2024-01-10'),
-('Fatma',   'Kaya',    '05409876543', 'fatma@email.com',   '2024-02-15'),
-('Mehmet',  'Demir',   '05557654321', 'mehmet@email.com',  '2024-03-20'),
-('Ayşe',    'Çelik',   '05321112233', 'ayse@email.com',    '2024-04-05'),
-('Ali',     'Şahin',   '05443334455', NULL,                '2024-05-12'),
-('Zeynep',  'Arslan',  '05556667788', 'zeynep@email.com',  '2024-06-01'),
-('Hasan',   'Koç',     '05359998877', NULL,                '2024-06-18'),
-('Elif',    'Kurt',    '05412223344', 'elif@email.com',    '2024-07-22');
+('Ahmet',   'Yılmaz',  '05---------', 'ahmet@email.com',   '2024-01-10'),
+('Fatma',   'Kaya',    '05---------', 'fatma@email.com',   '2024-02-15'),
+('Mehmet',  'Demir',   '05---------', 'mehmet@email.com',  '2024-03-20'),
+('Ayşe',    'Çelik',   '05---------', 'ayse@email.com',    '2024-04-05'),
+('Ali',     'Şahin',   '05---------', NULL,                '2024-05-12'),
+('Zeynep',  'Arslan',  '05---------', 'zeynep@email.com',  '2024-06-01'),
+('Hasan',   'Koç',     '05---------', NULL,                '2024-06-18'),
+('Elif',    'Kurt',    '05---------', 'elif@email.com',    '2024-07-22');
 
 INSERT INTO calisanlar (ad, soyad, pozisyon, maas) VALUES
 ('Burak',   'Aydın',   'Kasiyer',    18000.00),
